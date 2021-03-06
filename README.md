@@ -1,4 +1,4 @@
-# dmoim-front
+<!-- # dmoim-front
 
 ## Build Setup
 
@@ -18,3 +18,29 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+ -->
+# Dmoim - Front
+================
+
+### Description
+---------------
+개발자 소통과 프로젝트 및 코드 품질향상을 목표로 하는 커뮤니티 사이트
+
+### Skill
+----------
+* Vue (Vuex, Vue Router)
+* Nuxt
+* Vuetify
+* JavaScript (Es6)
+* TypeScript
+* Axios
+* Pwa
+* Jest
+* EsLint (Prettier)
+* StyleLint
+* CommitLint
+* Webpack
+* Babel
+
+### Build Setup
+---------------
