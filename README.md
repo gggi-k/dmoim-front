@@ -1,26 +1,4 @@
-<!-- # dmoim-front
-
-## Build Setup
-
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
- -->
 # Dmoim - Front
-================
 
 ### Description
 ---------------
@@ -44,3 +22,25 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ### Build Setup
 ---------------
+
+```bash
+
+$ npm i vue
+$ npm i -g typescript
+$ npm i -g ts-node
+$ npm init nuxt-app <프로젝트명>
+
+# install dependency
+$ npm install
+
+# dev run port: 3000
+$ npm run dev
+
+# build
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
+
+```
