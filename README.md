@@ -14,6 +14,7 @@
 * Axios
 * Pwa
 * Jest
+* Scss
 * EsLint (Prettier)
 * StyleLint
 * CommitLint
@@ -44,3 +45,7 @@ $ npm run start
 $ npm run generate
 
 ```
+
+### Reference
+---------------
+[Vue style Guide](https://vuejs.org/v2/style-guide/)
