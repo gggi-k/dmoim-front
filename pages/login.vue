@@ -1,24 +1,40 @@
 <template>
-  <v-sheet>
-    <v-form @sumbit.prevent="login">
-      <v-text-field
-        v-model="user.userId"
-        type="text"
-        clearable
-        autofocus
-        aria-autocomplete="username"
-      />
-      <v-text-field
-        v-model="user.password"
-        type="password"
-        clearable
-        aria-autocomplete="current-password"
-      />
-      <v-checkbox label="자동 로그인" />
-      <v-btn type="submit" block>로그인</v-btn>
-      <v-divider />
-    </v-form>
-  </v-sheet>
+  <v-layout justify-center align-center>
+    <v-flex xs12 sm8 md4>
+      <v-sheet class="pa-8" max-width="500" height="400" elevation="2" rounded>
+        <div>
+          <h2>
+            <v-icon>mdi-monitor</v-icon>
+            <b>Developer Moim</b>
+          </h2>
+          <v-subheader>Welcome to Hello World ~~!</v-subheader>
+        </div>
+        <v-form @submit.prevent="login">
+          <v-text-field
+            v-model="user.userId"
+            type="text"
+            label="id"
+            prepend-icon="mdi-account"
+            aria-autocomplete="username"
+            clearable
+            autofocus
+          />
+          <v-text-field
+            v-model="user.password"
+            type="password"
+            label="password"
+            prepend-icon="mdi-lock"
+            aria-autocomplete="current-password"
+            clearable
+          />
+          <v-checkbox label="자동 로그인" />
+          <v-btn type="submit" color="primary" large rounded block>
+            로그인
+          </v-btn>
+        </v-form>
+      </v-sheet>
+    </v-flex>
+  </v-layout>
 </template>
 
 <script lang="ts">
@@ -31,8 +47,14 @@ export default Vue.extend({
       password: '',
     },
   }),
+  head() {
+    const title = 'login'
+    return { title }
+  },
   methods: {
-    login() {},
+    login() {
+      console.log('aa')
+    },
   },
 })
 </script>
