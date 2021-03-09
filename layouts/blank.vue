@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="custom-background">
     <v-main>
       <v-container fluid fill-height>
         <nuxt />
@@ -7,3 +7,9 @@
     </v-main>
   </v-app>
 </template>
+
+<style lang="scss" scoped>
+.custom-background {
+  @include body-background-gradient;
+}
+</style>

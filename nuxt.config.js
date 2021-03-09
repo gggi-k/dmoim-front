@@ -55,7 +55,7 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en',
+      lang: 'ko',
     },
   },
 
@@ -65,13 +65,16 @@ export default {
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/scss/variables.scss'],
+    lang: {
+      current: 'ko',
+    },
     theme: {
       dark: false,
       themes: {
         light: {
-          primary: '#005691',
-          accent: '#004a7c',
-          secondary: '#e8f1f5',
+          primary: '#4364F7',
+          accent: '#0052D4',
+          secondary: '#6FB1FC',
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
