@@ -20,6 +20,10 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+  static: {
+    prefix: false,
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
@@ -72,7 +76,7 @@ export default {
       dark: false,
       themes: {
         light: {
-          primary: '#4364F7',
+          primary: '#1c92d2',
           accent: '#0052D4',
           secondary: '#6FB1FC',
           info: colors.teal.lighten1,
